@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) ubuntu@ip-172-31-11-84:~/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "microproject" already exists
+NAME           READY   STATUS    RESTARTS   AGE
+microproject   1/1     Running   0          112s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
