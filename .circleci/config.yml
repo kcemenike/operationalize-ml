@@ -45,9 +45,8 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python --version
-            python3 --version
-            #choco install python --version=3.7.2
+            
+            choco install python --version=3.7.2
             
             choco install make
             python -m venv venv
