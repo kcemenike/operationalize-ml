@@ -27,7 +27,7 @@ lint-win:
 	# This is linter for Dockerfiles
 	# hadolint Dockerfile
 	pwd
-	ls ~
+	ls "/c/Program Files/Docker/Docker"
 
 	DockerCli.exe -SwitchWindowsEngine
 	cat ./Dockerfile | docker run --rm -i hadolint/hadolint
