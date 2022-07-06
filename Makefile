@@ -26,7 +26,7 @@ lint-win:
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
 	# This is linter for Dockerfiles
 	# hadolint Dockerfile
-	dockercli -SwitchDaemon
+	dockercli -SwitchWindowsEngine
 	cat ./Dockerfile | docker run --rm -i hadolint/hadolint
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
